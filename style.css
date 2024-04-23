@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "xenon";
+    src: url(Super\ Senior\ Personal\ Use.ttf)  format(TrueType); 
+}
+
+@font-face {
+    font-family: 'font h1';
+    src: url(THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf) format(TrueType); 
+}
+
+
+
+body {
+    background-color: #E3DA09;
+    font-size: 15px;
+    color: black;
+    
+    
+    
+    
+    
+    
+
+}
+header {
+    font-family:'xenon';
+    background-image: linear-gradient(to top, #E38B09, #E3C009 );
+   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: -10px;
+    text-align: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.685);
+
+   
+    
+      
+}
+
+header > h1 {
+    font-size: 40px;
+padding-bottom: 5px;
+
+
+
+}
+
+main {
+
+    background-color: #e9ad2b;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.733);
+    
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'font h1';
+
+    
+}
+
+p {
+    text-indent: 8px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin:  0px;
+    
+}
+
+
+
+picture  > iframe{
+    padding-top: 20px;
+    display: block;
+   margin: auto;
+   padding-bottom: 15px;
+    
+  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(255, 55, 20);
+}
+nav {
+    margin-left: 0px;
+    margin-bottom: -30px;
+    text-align: left;
+}
+
+nav > a {
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+   color: white;
+   transition-duration: 0.5s;
+}
+#rodape {
+    margin-bottom: 0px;
+    
+}
+
+footer  {
+    background-color: rgba(241, 172, 44, 0.856);
+    color: white;
+    
+    padding: 5px;
+    margin: -10px;
+    
+    
+}
+
+footer a {
+    
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.61);
+}
+
+footer > p {
+    font-family: 'font h1';
+    color: black;
+    text-align: center;
+
+}
+
+aside {
+    background-color: #f0e932da;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.438);
+    
+}
+aside ul {
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+aside > h3 {
+    font-family: 'font h1';
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.568);
+    background-color: #ee721f;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p {
+     padding-top: 10px;
+    font-size: 18px;
+}
+
+
