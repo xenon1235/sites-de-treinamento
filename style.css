@@ -74,10 +74,9 @@ p {
 
 
 
-picture  > iframe{
+picture {
     padding-top: 20px;
-    display: block;
-   margin: auto;
+   
    padding-bottom: 15px;
     
   
